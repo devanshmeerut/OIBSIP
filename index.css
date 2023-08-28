@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,600;1,100;1,200;1,300;1,400;1,500&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins', sans-serif;
+}
+
+section{
+    position: relative;
+    width:100%;
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    background-image: url("img/content_banner.png");
+    background-size:cover; 
+    background-position:center;
+}
+
+header{
+    position: relative;
+    top:0;
+    width:100%;
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+}
+
+header .logo{
+    text-align: center;
+    position: relative;
+    color: #d34141;
+    background-color: rgb(255, 243, 17);
+    font-size:30px;
+    text-decoration:none;
+    text-transform: uppercase;
+    font-weight: 810px;
+    letter-spacing: 1px;
+    border-radius:110px;
+   
+}
+
+header .navigation a{
+    color:red;
+    background:yellow;
+    text-decoration:none;
+    font-weight:200px;
+    letter-spacing:2px;
+    padding:2px 15px;
+    border-radius:30px; 
+}
+
+.info-btn{
+
+    color:red;
+    background:#f1b6b6;
+    text-decoration:none;
+    border-radius:10px;
+    
+}
+
+
+
+.content{
+    max-width:650px;
+    margin:60px 100px;
+}
+
+.content .info h2{
+    color:#226A80;
+    font-size:50px;
+    text-transform:uppercase;
+}
+
+.content .info h2 span{
+    color:#7ad116;
+    font-size:50px;
+    font-weight:500;
+}
+.media-icons{
+    text-align:center;
+    font-size: 30px;
+    letter-spacing:12px;
+    
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 3300px;
+    padding-left:30px;
+    padding-right:30px;
+  }
+  .asc-section-2{
+    margin: auto;
+  }
+  .asc-section {
+    flex-basis: calc(50% - 20px); /* Adjust the width as needed */
+    background-color: #f1b6b6;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+
+  .asc-section h2 {
+    margin-top: 10;
+  }
+  
+  .asc-section p {
+    margin-bottom: 0;
+  }
+  
+  /* Additional styling for hover effect */
+  .asc-section:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 15px rgba(207, 192, 192, 0.2);
+  }
+
+  .img img{
+    height:450px;
+    width:600px;
+    padding : 60px 60px;
+  }
+  .img {
+    margin: auto;
+  }
+  .img h2{
+    text-align:center;
+  }
+
